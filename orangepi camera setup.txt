@@ -1,0 +1,33 @@
+We have an OrangePi 5.
+
+Follow the Quick Start guide located here:
+https://docs.photonvision.org/en/latest/docs/quick-start/quick-install.html
+
+*****
+
+1. Download latest PhotonVision image from here:
+https://github.com/PhotonVision/photonvision/releases
+
+Image file for OrangePi 5 should have the format:
+photonvision-{version}-linuxarm64_orangepi5.img.xz
+
+PhotonVision version must match your FRC/WPILib version.
+i.e. Select a 2025 version of PhotonVision if you are using 2025 version of FRC/WPILib.
+
+*****
+
+2. Flash the PhotonVision image onto a microSD card using the Raspberry Pi Imager tool.
+
+RPi Imager tool can be downloaded here:
+https://www.raspberrypi.com/software/
+
+Insert microSD into USB adapter, insert USB adapter into computer.
+
+Open the RPi Imager Tool, select OS in the left side menu, scroll down to select "Use custom".
+
+Select the downloaded PhotonVision image from previous step.
+
+Follow the prompts to install the image on the microSD card.
+
+*****
+

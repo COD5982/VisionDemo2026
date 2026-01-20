@@ -26,10 +26,10 @@ public class DriveTrain extends DriveTrainBase {
   private static final double kMaxSpeedMetersPerSecond = 4.2; // 4.0    pre-playoffs 3.2;
   private AHRS m_gyro = new AHRS(NavXComType.kMXP_SPI);
 
-  private final Translation2d m_frontLeftLocation = new Translation2d(0.267, 0.311);
-  private final Translation2d m_frontRightLocation = new Translation2d(0.267, -0.311);
-  private final Translation2d m_backLeftLocation = new Translation2d(-0.267, 0.311);
-  private final Translation2d m_backRightLocation = new Translation2d(-0.267, -0.311);
+  private final Translation2d m_frontLeftLocation = new Translation2d(0.267, 0.260);
+  private final Translation2d m_frontRightLocation = new Translation2d(0.267, -0.260);
+  private final Translation2d m_backLeftLocation = new Translation2d(-0.267, 0.260);
+  private final Translation2d m_backRightLocation = new Translation2d(-0.267, -0.260);
 
   private final SwerveDriveKinematics m_kinematics =
     new SwerveDriveKinematics(

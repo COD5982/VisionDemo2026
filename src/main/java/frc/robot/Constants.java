@@ -23,23 +23,18 @@ public final class Constants {
 
 
   public static final class CANIds {
-    public static final int kTestDriveTrainFrontLeftPower = 3;
-    public static final int kTestDriveTrainFrontLeftTurn = 4;
-    public static final int kTestDriveTrainFrontLeftEncoder = 21;
-    public static final int kTestDriveTrainFrontRightPower = 5;
-    public static final int kTestDriveTrainFrontRightTurn = 2;
-    public static final int kTestDriveTrainFrontRightEncoder = 22;
-    public static final int kTestDriveTrainBackLeftPower = 8;
-    public static final int kTestDriveTrainBackLeftTurn = 9;
-    public static final int kTestDriveTrainBackLeftEncoder = 24;
-    public static final int kTestDriveTrainBackRightPower = 6;
-    public static final int kTestDriveTrainBackRightTurn = 7;
-    public static final int kTestDriveTrainBackRightEncoder = 23;
-    public static final int kIntakeMotor = 17;
-    public static final int kLiftFrontMotor = 18;
-    public static final int kLiftBackMotor = 19;
-    public static final int kTestarmMotor = 20;
-    public static final int kTestcageMotor = 25;
+    public static final int kTestDriveTrainFrontLeftPower = 11;
+    public static final int kTestDriveTrainFrontLeftTurn = 21;
+    public static final int kTestDriveTrainFrontLeftEncoder = 31;
+    public static final int kTestDriveTrainFrontRightPower = 12;
+    public static final int kTestDriveTrainFrontRightTurn = 22;
+    public static final int kTestDriveTrainFrontRightEncoder = 32;
+    public static final int kTestDriveTrainBackRightPower = 13;
+    public static final int kTestDriveTrainBackRightTurn = 23;
+    public static final int kTestDriveTrainBackRightEncoder = 33;
+    public static final int kTestDriveTrainBackLeftPower = 14;
+    public static final int kTestDriveTrainBackLeftTurn = 24;
+    public static final int kTestDriveTrainBackLeftEncoder = 34;
   }
 
   public static final class DriveConstants {
